@@ -11,8 +11,8 @@ typedef Widget DateCellBuilder(
   bool? isWeekend,
 );
 
-class _DayWidget extends StatelessWidget {
-  const _DayWidget({
+class DayWidget extends StatelessWidget {
+  const DayWidget({
     Key? key,
     required this.isSelected,
     required this.isDisabled,

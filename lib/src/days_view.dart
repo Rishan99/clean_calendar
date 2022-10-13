@@ -145,7 +145,7 @@ class _DaysView extends StatelessWidget {
         final semanticLabel = '${formattedMonth(month, Language.english)} $day, $year';
         final text = '${language == Language.english ? day : NepaliUnicode.convert('$day')}';
 
-        Widget dayWidget = _DayWidget(
+        Widget dayWidget = DayWidget(
           isDisabled: disabled,
           text: text,
           label: semanticLabel,
