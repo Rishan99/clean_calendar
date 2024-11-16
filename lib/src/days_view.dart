@@ -123,7 +123,7 @@ class _DaysView extends StatelessWidget {
     final labels = <Widget>[];
     if (calendarStyle.renderDaysOfWeek)
       labels.addAll(
-        _getDayHeaders(language, themeData.textTheme.caption, headerDayType, headerDayBuilder),
+        _getDayHeaders(language, themeData.textTheme.labelSmall, headerDayType, headerDayBuilder),
       );
 
     //this weekNumber is to determine the weekend, saturday.
